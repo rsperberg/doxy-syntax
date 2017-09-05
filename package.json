@@ -2,12 +2,12 @@
   "name": "doxy-syntax",
   "theme": "syntax",
   "version": "0.0.1",
-  "description": "Based on Atom's default theme, with some color boost",
+  "description": "Variant of Base16 Tomorrow Dark theme, with some color boost",
   "keywords": [
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/atom/doxy-syntax",
+  "repository": "https://github.com/rsperberg/doxy-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
