@@ -1,0 +1,12 @@
+.syntax--source.syntax--css {
+  // highlight properties/values if they are supported
+  .syntax--property-name {
+    color: @purple;
+  }
+  .syntax--property-value {
+    color: @yellow;
+    &.syntax--support {
+      color: @yellow;
+    }
+  }
+}
