@@ -6,7 +6,8 @@
 // General colors
 @syntax-text-color: @very-light-gray;
 @syntax-cursor-color: white;
-@syntax-selection-color: @light-gold;
+@syntax-selection-color: darken(@light-pink, 20%);
+// @syntax-selection-color: @light-gold;
 // @syntax-selection-color: lighten(@dark-gray, 10%);
 @syntax-background-color: @very-dark-gray;
 
@@ -30,3 +31,25 @@
 @syntax-color-added: @green;
 @syntax-color-modified: @orange;
 @syntax-color-removed: @red;
+
+// For language entity colors
+@syntax-color-variable:  @red;
+@syntax-color-constant:  @orange;
+@syntax-color-property:  @turquoise;
+// @syntax-color-property:  @syntax-text-color;
+@syntax-color-value:     @light-orange;
+@syntax-color-function:  @cornflower-blue;
+// @syntax-color-function:  @blue;
+@syntax-color-method:    @blue;
+@syntax-color-class:     @yellow;
+@syntax-color-keyword:   @purple;
+@syntax-color-tag:       @red;
+@syntax-color-attribute: @turquoise;
+// @syntax-color-attribute: @orange;
+@syntax-color-import:    @purple;
+@syntax-color-snippet:   @green;
+
+@syntax-deprecated-fg: @white;
+@syntax-deprecated-bg: @cherry;
+@syntax-illegal-fg: @yellow;
+@syntax-illegal-bg: @cherry;
